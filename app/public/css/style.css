@@ -1,9 +1,9 @@
 :root {
-  --cor-fundo-pagina: #f8f9fa; /* Cor de fundo suave (cinza claro) */
-  --cor-cabecalho: #f7b7cdf1; /* Azul padrão (cor primária do Bootstrap) */
-  --cor-navegacao: #ffe7e7; /* Cinza suave para a navegação */
-  --cor-botoes: #a09496; /* Verde de sucesso */
-  --cor-botoes-hover: #218838; /* Verde mais escuro para hover */
+  --cor-fundo-pagina: #e4ebff; /* Cor de fundo suave (cinza claro) */
+  --cor-cabecalho: #010044; /* Azul padrão (cor primária do Bootstrap) */
+  --cor-navegacao: #010044c9; /* Cinza suave para a navegação */
+  --cor-botoes: #0066ff; /* Verde de sucesso */
+  --cor-botoes-hover: #ff0000; /* Verde mais escuro para hover */
   --cor-titulo: #ffffff; /* Cor escura para os títulos */
   --cor-texto: #212529; /* Cor do texto principal */
   --cor-texto-secundario: #6c757d; /* Cor suave para texto secundário */
@@ -13,7 +13,7 @@
   * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; 
   }
   
   body {
@@ -66,8 +66,8 @@
     background-color: white;
     margin: 20px auto;
     max-width: 900px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 60px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
   }
   
   footer {
@@ -83,9 +83,9 @@
   }
   
   p {
-    font-size: 1rem;
+    font-size: 2rem;
     color: var(--cor-texto-secundario);
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
   
   footer p{
